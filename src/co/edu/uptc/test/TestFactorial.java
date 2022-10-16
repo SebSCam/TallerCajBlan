@@ -38,7 +38,7 @@ class TestFactorial {
 	void testMenorCero() {
 		Factorial factorial = new Factorial();
 		double resultado = factorial.factorial(-6);
-		assertEquals(-720, resultado);
+		assertEquals(0, resultado);
 	}
 
 }
